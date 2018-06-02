@@ -1,7 +1,8 @@
 # YOLOv3-caffe
 
 usage: 
-python detection_one.py --image=images/dog-cycle-car.png
+
+python detect_one.py --image=images/dog-cycle-car.png
 
 ### Acknowledgements
 
