@@ -3,11 +3,16 @@
 usage: 
 python detection_one.py --image=images/dog-cycle-car.png
 
-### Notes
+### Acknowledgements
 
 The major part is adapted from [Ayoosh Kathuria](https://github.com/ayooshkathuria)'s
 
 amazing tutorial on YOLOv3 implementation in pytorch. 
+
+The weight files can be downloaded from [csdn](https://download.csdn.net/download/jason_ranger/10452595).
+(ignore the prototxt file. that's for caffe with interp layer, explanation is below)
+
+### Notes
 
 A simplest YOLOv3 model in caffe for python3.
 
