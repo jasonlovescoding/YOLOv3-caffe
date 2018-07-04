@@ -13,8 +13,7 @@ amazing tutorial on YOLOv3 implementation in pytorch.
 The weight files can be downloaded from [YOLOv3-caffe](https://download.csdn.net/download/jason_ranger/10452595).
 (ignore the prototxt file with interp layer, explanation below)
 
-I also made a version where batchnorm computation is merged into convolution. The model can be downloaded from [YOLOv3-caffe-mergebn]
-(https://download.csdn.net/download/jason_ranger/10519464)
+I also made a version where batchnorm computation is merged into convolution. The model can be downloaded from [YOLOv3-caffe-mergebn](https://download.csdn.net/download/jason_ranger/10519464)
 
 ### Notes
 
