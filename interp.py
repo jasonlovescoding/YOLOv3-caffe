@@ -21,7 +21,7 @@ class UpsamplingBilinear2d(caffe.Layer):
         for n in range(top[0].data[...].shape[0]):
             data = bottom[0].data[n, :, :, :]
             data = data.transpose((1, 2, 0))
-            data = cv2.resize(data, (self.w_out, self.h_out), interpolation=cv2.INTER_LINEAR) 
+            data = cv2.resize(data, (self.w_out, self.h_out), interpolation=cv2.INTER_NEAREST) 
             top[0].data[n, :, :, :] = data.transpose((2, 0, 1))
     def backward(self, top, propagate_down, bottom):
         pass
