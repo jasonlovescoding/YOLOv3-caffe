@@ -15,8 +15,7 @@ The weight files can be downloaded from [YOLOv3-caffe](https://download.csdn.net
 
 I also made a version where batchnorm computation is merged into convolution. The model can be downloaded from [YOLOv3-caffe-mergebn](https://download.csdn.net/download/jason_ranger/10519464)
 
-For people who do not possess a CSDN account, download here: [YOLOv3-caffe](https://pan.baidu.com/s/19t_OXtgF3qR0UnxmbDY9YA)
-The password is "ax5s"
+For people outside China, you can download from googledrive [YOLOv3-caffe](https://drive.google.com/open?id=1xR_y_gmBIWjrENgjXXzB4_5aSqYPeWnM)
 
 ### Notes
 
